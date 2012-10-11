@@ -13,7 +13,7 @@ Cloud Logging client for javascript
 ## Browser 
 1. Download cloud-logging.js file
 2. Include into your html
-3. Create new instance
+3. Create new instance:
 
 ```js
 var logger = CloudLogging.getLogger({
@@ -27,7 +27,7 @@ var logger = CloudLogging.getLogger({
 2. Create new instance:
 
 ```js
-var logger = require('cloud-logging-js').getLogger({
+var logger = require('cloud-logging-js').CloudLogging.getLogger({
 	app: 'log',
 	userId: 'userId'
 });
